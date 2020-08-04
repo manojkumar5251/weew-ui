@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/weew-ui/static/css/main.da2b8cd4.chunk.css",
+    "main.js": "/weew-ui/static/js/main.ec75e682.chunk.js",
+    "main.js.map": "/weew-ui/static/js/main.ec75e682.chunk.js.map",
+    "runtime-main.js": "/weew-ui/static/js/runtime-main.12794e28.js",
+    "runtime-main.js.map": "/weew-ui/static/js/runtime-main.12794e28.js.map",
+    "static/css/2.ed439b8d.chunk.css": "/weew-ui/static/css/2.ed439b8d.chunk.css",
+    "static/js/2.b3fb1b9d.chunk.js": "/weew-ui/static/js/2.b3fb1b9d.chunk.js",
+    "static/js/2.b3fb1b9d.chunk.js.map": "/weew-ui/static/js/2.b3fb1b9d.chunk.js.map",
+    "index.html": "/weew-ui/index.html",
+    "precache-manifest.7084f547500b7ad5b45ab87eebb6bb73.js": "/weew-ui/precache-manifest.7084f547500b7ad5b45ab87eebb6bb73.js",
+    "service-worker.js": "/weew-ui/service-worker.js",
+    "static/css/2.ed439b8d.chunk.css.map": "/weew-ui/static/css/2.ed439b8d.chunk.css.map",
+    "static/css/main.da2b8cd4.chunk.css.map": "/weew-ui/static/css/main.da2b8cd4.chunk.css.map",
+    "static/js/2.b3fb1b9d.chunk.js.LICENSE.txt": "/weew-ui/static/js/2.b3fb1b9d.chunk.js.LICENSE.txt",
+    "static/media/styles.module.css": "/weew-ui/static/media/Path 4.ee8a57ca.png",
+    "static/media/Bitmap_k_pattern.png": "/weew-ui/static/media/Bitmap_k_pattern.3c2b67aa.png",
+    "static/media/Bitmap_kw_pattern.png": "/weew-ui/static/media/Bitmap_kw_pattern.adfea723.png",
+    "static/media/Bitmap_kx_pattern.png": "/weew-ui/static/media/Bitmap_kx_pattern.2675b337.png",
+    "static/media/Mask_gr.png": "/weew-ui/static/media/Mask_gr.9cb072f9.png",
+    "static/media/Mask_gw.png": "/weew-ui/static/media/Mask_gw.8007bb99.png",
+    "static/media/Mask_gz.png": "/weew-ui/static/media/Mask_gz.25ce7452.png",
+    "static/media/aiony_haust_1096642_unsplash_k_pattern.png": "/weew-ui/static/media/aiony_haust_1096642_unsplash_k_pattern.305d11c1.png",
+    "static/media/carousal0.png": "/weew-ui/static/media/carousal0.5deba4a9.png",
+    "static/media/carousal1.png": "/weew-ui/static/media/carousal1.d87ed07a.png",
+    "static/media/carousal2.png": "/weew-ui/static/media/carousal2.bdd00baf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12794e28.js",
+    "static/css/2.ed439b8d.chunk.css",
+    "static/js/2.b3fb1b9d.chunk.js",
+    "static/css/main.da2b8cd4.chunk.css",
+    "static/js/main.ec75e682.chunk.js"
+  ]
+}
