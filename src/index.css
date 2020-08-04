@@ -1,13 +1,95 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button:hover {
+  cursor: pointer;
+}
+
+.button-white {
+  background-color: white !important;
+  color: rgb(96, 138, 36) !important;
+}
+
+.button-white:hover {
+  color: white !important;
+  border-color: white !important;
+  background-color: rgb(96, 138, 36) !important;
+}
+
+.button-white:active {
+  background-color: white !important;
+  color: rgb(96, 138, 36) !important;
+}
+
+.button-green {
+  color: white !important;
+  background-color: rgb(96, 138, 36) !important;
+}
+
+.button-green:hover {
+  background-color: white !important;
+  color: rgb(96, 138, 36) !important;
+  border-color: rgb(96, 138, 36) !important;
+}
+
+.button-green:active {
+  color: white !important;
+  background-color: rgb(96, 138, 36) !important;
+}
+
+.hr {
+  height: 1px;
+  width: 5rem;
+  background-color: white;
+}
+
+@media screen and (max-width: 560px) {
+  .hr {
+    width: 1px;
+    height: 7rem;
+  }
+}
+
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  /* padding: 10px; */
+  margin: 10px;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
 }

@@ -1,0 +1,48 @@
+.Container {
+  background-image: url("../../assets/images/Path\ 4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Logo {
+  height: 55px;
+  width: auto;
+}
+
+.Home {
+  height: 1.2rem;
+}
+.ButtonWhite {
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+
+.ButtonGreen {
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  width: 10rem;
+}
+
+.Shadow {
+  box-shadow: 2px 2px 5px 5px #cccccc;
+}
+
+.CarousalControl {
+  opacity: 1 !important;
+  background-color: rgb(96, 138, 36) !important;
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+.Feedback {
+  position: absolute;
+  left: 2rem;
+  font-size: 1.8rem;
+  top: 0px;
+}
+
+@media screen and (max-width: 560px) {
+  .Feedback {
+    font-size: 1.5rem;
+  }
+}
